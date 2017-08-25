@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+// Colors
+$black: #332B29;
+$red: #8F3737;
+
+
+// Breakpoints
+$phone: 768px;
+$tablet: 992px;
+$desktop: 1200px;
+
+// Fonts
+@font-face
+{
+    font-family: 'TheBoldFont';
+    src: url(../fonts/theboldfont.ttf);
+}
+
+$main-font: 'Open Sans', sans-serif;
+$second-font: 'TheBoldFont', sans-serif;
