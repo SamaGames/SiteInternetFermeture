@@ -7,7 +7,7 @@
 
     <title>SamaGames - Serveur Minecraft Mini-Jeux</title>
     <meta name="description" content="Serveur Minecraft révolu, ayant proposé divers mini-jeux à la communauté durant 3 années." />
-    
+
     <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
@@ -16,7 +16,7 @@
     <link rel="shortcut icon" href="img/favicon/favicon.ico">
     <meta name="msapplication-config" content="img/favicon/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
-    
+
     <!-- Twitter Card data -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="SamaGames">
@@ -24,7 +24,7 @@
     <meta name="twitter:creator" content="@SamaGames_Mc">
     <!-- Twitter summary card with large image must be at least 280x150px -->
     <meta name="twitter:image:src" content="http://image.noelshack.com/fichiers/2017/34/1/1503348468-919494b.png">
-    
+
     <!-- Open Graph data -->
     <meta property="og:title" content="SamaGames" />
     <meta property="og:type" content="website" />
@@ -32,7 +32,7 @@
     <meta property="og:image" content="http://image.noelshack.com/fichiers/2017/34/1/1503348468-919494b.png" />
     <meta property="og:description" content="Serveur Minecraft révolu, ayant proposé divers mini-jeux à la communauté durant 3 années." />
     <meta property="og:site_name" content="SamaGames" />
-    
+
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,800" rel="stylesheet">
     <link href="css/app.min.css" rel="stylesheet" type="text/css" />
 </head>
@@ -40,26 +40,26 @@
 
     <header>
         <div class="topHeader">
-            
+
             <div class="originalWebsite">
                 <a href="https://old.samagames.net/">Accéder au site originel</a>
                 <div class="underline"></div>
             </div>
-            
+
         </div>
-        
+
         <div class="mainHeader">
             <div class="imgContainer"><a href="index.php"><img src="img/logo.png" alt="Logo de SamaGames" class="logo"></a></div>
             <p class="title">Libre accès - Construction</p>
         </div>
     </header>
-    
+
     <div id="sharePage">
         <div class="container">
             <h3>Informations</h3>
             <p>Vous trouverez sur cette page une grande partie des cartes réalisées pour SamaGames. Certaines sont inédites et n'ont jamais été publiées sur le serveur !</p>
             <p>Vous pouvez faire ce que vous voulez de ces ressources à condition de systématiquement citer les auteurs originaux. Si vous ne disposez pas d'informations sur l'auteur, mentionnez la "SamaGames BuildTeam".</p>
-            
+
             <h3>Téléchargement</h3>
             <div class="gridContainer">
                 <div class="grid">
@@ -119,13 +119,15 @@
             </div>
         </div>
     </div>
-    
+
     <footer>
         <div class="imgContainer"><a href="index.php"><img src="img/logo_nb.png" alt="Logo de SamaGames" class="logo"></a></div>
-        
+
         <h3>SamaGames</h3>
         <p>vous remercie pour cette aventure</p>
         <p>❤</p>
     </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
