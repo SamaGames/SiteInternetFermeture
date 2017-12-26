@@ -59,19 +59,13 @@
             </div>
 
             <!-- TODO : Enter the ending day -->
-            <p class="lifetime">06 Juillet 2014 - </p>
+            <p class="lifetime">06 Juillet 2014 - Septembre 2017</p>
         </div>
     </header>
 
     <div id="videoSection">
         <div class="title">
-            <h3>Vidéo de clôture</h3>
-        </div>
-
-
-        <div class="video">
-            <!-- TODO : Change the link -->
-            <iframe class="youtube" width="560" height="315" src="https://www.youtube.com/embed/scObrgRMiAs" frameborder="0" allowfullscreen></iframe>
+            <h3>Texte de clôture</h3>
         </div>
 
 
@@ -85,8 +79,10 @@
 
                 <p>Cependant, le succès rencontré par le projet est plus que positif : nous sommes fiers d’avoir autant marqué la communauté Minecraft française, devenant fut un temps un acteur majeur de celle-ci. Durant 3 années, nous avons proposé gratuitement une multitude de jeux innovants à plus de 400.000 joueurs différents. C’est aussi près de 200 personnes qui ont intégré bénévolement l’équipe au fil des années, et qui ont eu l’opportunité de développer des compétences professionnelles.</p>
 
-                <p>Pour mener à bien la fermeture de SamaGames, nous avons choisi de réaliser un geste fort pour la communauté : nous avons décidé de partager en libre accès notre travail et nos réalisations jusqu’alors privées.<br>
-                Le principal défaut interne de l'équipe a toujours été le temps, et la difficulté à achever nos projets. Nous disposons d’une quantité énormissime d’idées mises sous forme de cahier des charges prêtes à être développées, de jeux en développement proches d’être terminés, et de cartes Minecraft prêtes à l’emploi. Nous vous encourageons ainsi à étudier et utiliser ces ressources, que cela soit à but éducatif ou communautaire.</p>
+                <p>Pour mener à bien la fermeture de SamaGames, nous avons choisi de réaliser un geste fort pour la communauté : <span class="underline">nous avons décidé de partager en libre accès notre travail et nos réalisations</span> jusqu’alors privées.<br/>
+                Nous disposons d’une quantité énormissime d’idées mises sous forme de cahier des charges prêtes à être développées, de jeux en développement proches d’être terminés, et de cartes Minecraft prêtes à l’emploi. Nous vous encourageons ainsi à étudier et utiliser ces ressources, que cela soit à but éducatif ou communautaire.</p>
+
+                <p>Le principal défaut interne de l'équipe a toujours été le temps, et la difficulté à achever nos projets. On le constate à nouveau avec le délai qu'a pris cette fermeture à être réalisée : nous souhaitions réaliser une vidéo en hommage à l'évolution du projet, mais cette idée a été écartée, faute de temps.</p>
 
                 <p>Le site internet de SamaGames devient un site vitrine témoignant de l’histoire du projet, et mettant à disposition les différentes ressources citées ci-dessus. Nous continuerons d’héberger le teamspeak et le site internet durant au moins les 5 prochaines années.</p>
 

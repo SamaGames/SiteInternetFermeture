@@ -28,7 +28,6 @@ window.sr = ScrollReveal({ reset: true, mobile: false });
 sr.reveal('.imgContainer');
 sr.reveal('.title', { delay: 200 });
 sr.reveal('.lifetime', { delay: 200 });
-sr.reveal('.video', { delay: 500 });
 sr.reveal('.resume', { delay: 100 });
 sr.reveal('.quoteGroup', { delay: 100 });
 sr.reveal('.shareBox', { delay: 100 }, 100);

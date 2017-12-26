@@ -3,11 +3,11 @@ header {
         background-color: $black;
         color: white;
         padding: 13px 0;
-        
+
         .originalWebsite {
             width: 156px;
             margin: auto;
-            
+
             a {
                 text-align: center;
                 font-size: 11px;
@@ -15,7 +15,7 @@ header {
                 letter-spacing: 0.05em;
                 margin-top: 2px;
             }
-            
+
             .underline {
                 width: 0;
                 height: 1px;
@@ -24,13 +24,13 @@ header {
                 margin-top: 2px;
                 transition: width 0.7s cubic-bezier(.42, 0, 0, 1);
             }
-            
+
             &:hover .underline {
                 width: 100%;
             }
         }
     }
-    
+
     .mainHeader {
         position: relative;
         background-color: $red;
@@ -39,7 +39,7 @@ header {
         text-align: center;
         color: white;
         padding-bottom: 54px;
-        
+
         &::after {
             position: absolute;
             content: '';
@@ -52,14 +52,14 @@ header {
             border-right: 20px solid transparent;
             border-top: 20px solid $red;
         }
-        
+
         .imgContainer {
             display: inline-block;
             position: relative;
             height: 152px;
             width: 100px;
             perspective: 180px;
-            
+
             img.logo {
                 position: absolute;
                 width: 100px;
@@ -67,18 +67,18 @@ header {
                 transform: translateX(-50%) rotateY(0deg);
                 transition: transform 1s cubic-bezier(.42, 0, .29, 1);
                 will-change: transform;
-                
+
                 &:hover {
                     transform: translateX(-50%) rotateY(360deg);
                 }
             }
         }
-        
+
         .frame {
             border: 1px solid white;
             display: inline-block;
             padding: 0 20px;
-            
+
             h1 {
                 font-family: $second-font;
                 font-size: 44px;
@@ -94,14 +94,14 @@ header {
                 margin-bottom: 12px;
             }
         }
-        
+
         .lifetime {
             font-size: 14px;
             letter-spacing: 0.23em;
             text-transform: uppercase;
             margin-top: 28px;
         }
-        
+
         .title {
             font-size: 14px;
             letter-spacing: 0.23em;
@@ -113,10 +113,10 @@ header {
 #videoSection {
     padding-top: 90px;
     padding-bottom: 110px;
-    
+
     .title {
         text-align: center;
-        
+
         h3 {
             display: inline-block;
             font-size: 18px;
@@ -126,16 +126,16 @@ header {
             border-bottom: 1px solid $black;
         }
     }
-    
+
     .video {
         text-align: center;
         margin-top: 40px;
     }
-    
+
     .article {
         padding-top: 60px;
         position: relative;
-        
+
         .gradient {
             display: none;
             position: absolute;
@@ -143,12 +143,13 @@ header {
             height: 140px;
             background: linear-gradient(0deg, white 0%, rgba(255, 255, 255, 0) 50%);
             pointer-events: none;
+            bottom: 0;
         }
-        
+
         &.hidden {
-            height: 200px;
+            height: 260px;
             overflow: hidden;
-            
+
             .gradient {
                 display: block;
             }
@@ -179,17 +180,17 @@ header {
             span.underline {
                 text-decoration: underline;
             }
-            
+
             span.italic {
                 font-style: italic;
             }
         }
     }
-    
+
     .buttonContainer {
         text-align: center;
         margin-top: 40px;
-        
+
         .button {
             width: 240px;
             height: 60px;
@@ -201,13 +202,13 @@ header {
             transition: border 0.2s;
             background-color: $red;
             cursor: pointer;
-            
+
             &:hover {
                 &::before {
                     transform: translateX(0%);
                 }
             }
-            
+
             &::before {
                 content: '';
                 display: block;
@@ -221,7 +222,7 @@ header {
                 transform: translateX(-120%);
                 will-change: transform;
             }
-            
+
             .action {
                 display: block;
                 width: 100%;
@@ -248,17 +249,17 @@ header {
     color: white;
     padding-top: 110px;
     padding-bottom: 100px;
-    
+
     .resume {
         font-size: 18px;
         letter-spacing: 0.23em;
         line-height: 27px;
     }
-    
+
     .dataGroup {
         margin-top: 110px;
         margin-bottom: 30px;
-        
+
         .data {
             font-size: 72px;
             font-weight: 800;
@@ -277,15 +278,15 @@ header {
 #shareSection {
     padding-top: 85px;
     padding-bottom: 115px;
-    
+
     .quoteGroup {
         text-align: center;
-        
+
         .frame {
             border: 1px solid $black;
             display: inline-block;
             padding: 25px;
-            
+
             .quote {
                 display: inline-block;
                 font-size: 18px;
@@ -294,7 +295,7 @@ header {
                 margin-right: 30px;
                 line-height: 27px;
             }
-            
+
             p.author {
                 font-size: 18px;
                 font-weight: 300;
@@ -304,7 +305,7 @@ header {
             }
         }
     }
-    
+
     p.resume {
         text-align: center;
         font-size: 18px;
@@ -313,19 +314,19 @@ header {
         margin-bottom: 55px;
         line-height: 27px;
     }
-    
+
     .shareGroup {
         display: flex;
         justify-content: space-around;
         max-width: 1500px;
         margin: auto;
-        
+
         .shareBox {
             display: inline-block;
             border: 1px solid $black;
             padding: 36px 40px;
             position: relative;
-            
+
             p {
                 position: absolute;
                 text-transform: uppercase;
@@ -335,12 +336,12 @@ header {
                 left: 50%;
                 padding: 0 10px;
                 text-align: center;
-                
+
                 &.bug {
                     width: 210px;
                 }
             }
-            
+
             .button {
                 width: 240px;
                 height: 60px;
@@ -392,12 +393,12 @@ header {
 #sharePage {
     padding-top: 60px;
     padding-bottom: 100px;
-    
+
     .tight {
         width: 80%;
         margin: 0 auto;
     }
-    
+
     h3 {
         display: inline-block;
         font-size: 18px;
@@ -409,21 +410,21 @@ header {
         margin-left: 20px;
         margin-top: 40px;
     }
-    
+
     p {
         margin-bottom: 30px;
         font-size: 16px;
         line-height: 24px;
-        
+
         span.underline {
             text-decoration: underline;
         }
     }
-    
+
     .buttonContainer {
         text-align: center;
         margin-top: 50px;
-        
+
         .button {
             width: 240px;
             height: 60px;
@@ -469,40 +470,40 @@ header {
             }
         }
     }
-    
+
     .gridContainer {
         text-align: center;
-        
+
         .grid {
             display: inline-block;
             width: 80%;
             text-align: left;
-            
+
             .topLine {
                 background-color: $red;
                 color: white;
                 font-weight: 600;
-                
+
                 span.allDownload {
                     float: right;
-                    
+
                     &:hover {
                         text-decoration: underline;
                     }
                 }
             }
-            
+
             .line {
                 display: block;
                 background-color: white;
                 padding-left: 25px;
                 transition: padding 0.2s cubic-bezier(0, 0, .23, 1);
                 overflow: hidden;
-                
+
                 &:hover {
                     padding-left: 50px;
                 }
-                
+
                 .type {
                     margin-right: 10px;
                     background-color: $black;
@@ -510,18 +511,18 @@ header {
                     padding: 5px 15px;
                     border-radius: 5px;
                 }
-                
+
                 .name {
                     letter-spacing: 0.025em;
                     font-size: 16px;
                     line-height: 24px;
                 }
-                
+
                 &:nth-child(even) {
                     background-color: #efefef;
                 }
             }
-            
+
             .topLine, .line {
                 padding: 25px 20px;
             }
@@ -533,7 +534,7 @@ footer {
     text-align: center;
     background-color: #272220;
     padding: 45px 0;
-    
+
     .imgContainer {
         display: inline-block;
         position: relative;
@@ -553,7 +554,7 @@ footer {
             }
         }
     }
-    
+
     h3 {
         color: white;
         font-size: 20px;
@@ -561,7 +562,7 @@ footer {
         text-transform: uppercase;
         margin-top: 30px;
     }
-    
+
     p {
         font-weight: 300;
         color: #9E9E9E;
@@ -587,7 +588,7 @@ footer {
         width: 70vw!important;
         height: calc(70vw * 0.56)!important;
     }
-    
+
     #dataSection {
         .resume {
             margin: 0 10px!important;
@@ -597,28 +598,28 @@ footer {
             margin-right: 10px!important;
         }
     }
-    
+
     #shareSection {
         .quoteGroup {
             margin: 0 20px!important;
-            
+
             .frame {
                 width: 100%!important;
-                
+
                 p {
                     margin-left: 0!important;
                     margin-right: 0!important;
                 }
             }
         }
-        
+
         .resume {
             margin-left: 10px!important;
             margin-right: 10px!important;
             margin-bottom: 0!important;
         }
     }
-    
+
     .allDownload {
         display: none!important;
     }
